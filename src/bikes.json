@@ -1,0 +1,88 @@
+{
+  "bikes": [
+    {
+      "id": 1,
+      "image": "https://embed.widencdn.net/img/dorelrl/jevluxxwtx/2000px@1x/C20_C12400M_Synapse_Crb_Disc_Tgra_MDN_PD.png",
+      "title": "Synapse Carbon",
+      "subtitle": "Disc Tiagra",
+      "size": [
+        48,
+        54,
+        56
+      ],
+      "main_text": "Go further. A road bike that’s light, stiff, fast and surprisingly comfortable. Your rides will go longer. You'll barely notice.",
+      "highlights": {
+        "line1": "Lightweight BallisTec carbon frameset",
+        "line2": "Shimano Tiagra 10-speed group w/ FSA Omega dual chainring crank",
+        "line3": "Shimano Tiagra hydraulic disc brakes",
+        "where": "The open road, gravel roads, in competition",
+        "build_for": "The open road, gravel roads, in competition"
+      },
+      "price": "$3599"
+    },
+    {
+      "id": 2,
+      "image": "https://embed.widencdn.net/img/dorelrl/frdfcn7mh9/2000px@1x/C19_C17209M_SuperX_DI2_TNG_PD.png",
+      "title": "SuperX",
+      "subtitle": "Di2",
+      "size": [
+        48,
+        54,
+        56,
+        58,
+        61
+      ],
+      "main_text": "Cross Boss. Incredibly confident handling, unmatched traction, and huge mud & tire clearance make this ultra-light machine the ultimate 'cross racing rig.",
+      "highlights": {
+        "line1": "Shimano Ultegra/XT Di2 Drivetrain, 11-speed / Shimano Ultegra Hydro Disc Brakes",
+        "line2": "HollowGram Si Crankset, OPI SpideRing, 40T, X-Sync",
+        "line3": "HollowGram Si Disc Carbon Clincher tubeless Wheelset / Vittoria Terreno Mix TNT tubeless ready Tires",
+        "where": "",
+        "build_for": ""
+      },
+      "price": "$4200"
+    },
+    {
+      "id": 3,
+      "image": "https://embed.widencdn.net/img/dorelrl/o8cacsuic1/2000px@1x/C20_C14270M_CAAD_Optimo_Tgra_CAS_PD.png",
+      "title": "CAAD Optimo",
+      "subtitle": "Tiagra",
+      "size": [
+        48,
+        58,
+        61
+      ],
+      "main_text": "Success within reach. A performance road bike with race-winning DNA. Smooth, fast, affordable—pick three.",
+      "highlights": {
+        "line1": "Lightweight SmartForm C2 Alloy Frame w/ full carbon fork",
+        "line2": "Shimano Tiagra 20-speed group",
+        "line3": "Shimano Tiagra brakes",
+        "where": "In competition, the open road",
+        "build_for": "Handling, speed, durability"
+      },
+        "price": "$5499"
+    },
+    {
+      "id": 4,
+      "image": "https://embed.widencdn.net/img/dorelrl/q1aksl26hq/2000px@1x/C21_C15251M_Topstone_Crb_Lefty_CML_PD.png",
+      "title": "Topstone Carbon",
+      "subtitle": "Lefty 1",
+      "size": [
+        "XS",
+        "SM",
+        "MD",
+        "LG",
+        "XL"
+      ],
+      "main_text": "More Give. More Go. More Lefty. A gravel bike to beat all gravel bikes. Dual suspension makes this the most off-road capable and on-road comfortable road bike ever made.",
+      "highlights": {
+        "line1": "BallisTec carbon frame with Kingpin suspension / Lefty Oliver Carbon gravel fork, 30mm travel",
+        "line2": "SRAM Force/X01 Eagle eTap AXS HRD 12-speed group / HollowGram 23 carbon wheels",
+        "line3": "HollowGram SAVE bar-stem / Integrated Cannondale App connectivity",
+        "where": "Gravel roads, Up and down hills, Out in the elements",
+        "build_for": "Handling, Comfort, Traction"
+      },
+        "price": "$2700"
+    }
+  ]
+}

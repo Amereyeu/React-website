@@ -1,0 +1,18 @@
+.home {
+  background-image: url(https://d1mo5ln9tjltxq.cloudfront.net/-/media/images/homepage/launch_12162019/homepage_qa_20.jpg?h=1101&la=en&w=1595&hash=2D92F5C3F4A58A52AEF60DC4BA38072885298290);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__title {
+    font-size: 12em;
+    text-align: center;
+    color: $color-secondary;
+    text-shadow: 0 0 10px $color-primary;
+  }
+}

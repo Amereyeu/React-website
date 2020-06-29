@@ -1,0 +1,22 @@
+[
+	{
+		"question": "How do I get replacement parts for my Cannondale bicycle?",
+		"answer": "Cannondale carries replacement parts for many models going back several years. We may not have everything, but any available parts can be ordered through our network of Cannondale retailers.  Please note, we only carry parts that are proprietary to the Cannondale brand.  For all other parts, it is likely your local bike shop can order a compatible replacement.",
+		"open": true
+	},
+	{
+		"question": "Something is wrong with my bike. Is it covered under warranty?",
+		"answer": "Cannondale's limited warranty is not meant to suggest or imply that the frame or components can never be broken or will last forever. This limited warranty covers manufacturing defects that occur within the normal lifespan and use of the product. Frames, excluding those listed below: Lifetime of the original owner. Frames of Gravity, Freeride, Downhill, Dirt Jump and other ASTM Category Five Bicycles: Three years from original retail purchase. Swing Arms, Chainstays, Seatstays, and Shock Links of Full Suspension Frames: Five years from original retail purchase.",
+		"open": false
+	},
+	{
+		"question": "Can my frame be repaired?",
+		"answer": "In the unfortunate event that your frame is compromised, we do not recommend attempting to repair it. While there are a number of companies that offer repair services for carbon fiber, this is not a solution we can endorse. Cannondale does offer replacement programs to assist original owners of Cannondale product in getting back onto another bike. Please bring your frame, with your original proof of purchase to your authorized Cannondale retailer to get things started.",
+		"open": false
+	},
+	{
+		"question": "Cannondale Crash Replacement Program",
+		"answer": "Unfortunately, accidents happen. There are a wide variety of situations a rider can find themselves in that can result in non-warranty damage to their bike. Here at Cannondale, we hope to get you back up and riding as fast as possible. In situations where a bike is compromised, that is not the result of a manufacturing defect, we offer a few different options for Crash Replacement.",
+		"open": false
+	}
+]
