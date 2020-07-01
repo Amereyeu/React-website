@@ -23,27 +23,34 @@ $bg-anim: #d8d0d1;
       animation: Product 1s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
 
       &__img {
-        width: 600px;
         position: absolute;
-        left: -250px;
-        top: 80px;
+        top: -190px;
+        left: -38px;
         opacity: 0;
         animation: FadeIn 1s ease-in forwards;
         animation-delay: 1s;
+        width: 300px;
+
+        @include break($medium) {
+          width: 600px;
+          left: -250px;
+          top: 80px;
+        }
 
         img {
-          width: 600px;
+          width: 100%;
           height: auto;
+          top: 80px;
         }
       }
 
       &__info {
         position: absolute;
         left: 0;
-        _top: 50px;
+        top: 0;
         width: 0;
         min-height: 430px;
-        height: 500px;
+        height: 620px;
         background: darken($color-primary, 30%);
         display: flex;
         align-items: center;
@@ -52,11 +59,19 @@ $bg-anim: #d8d0d1;
         animation-delay: 1.5s;
         color: #fff;
 
+        @include break($medium) {
+          height: 500px;
+        }
+
         &__content {
           animation: FadeIn 1s ease-in-out forwards;
           animation-delay: 2s;
           opacity: 0;
-          padding: 3em;
+          padding: 2em;
+
+          @include break($medium) {
+            padding: 3em;
+          }
 
           &__about {
             width: 100%;
@@ -91,18 +106,21 @@ $bg-anim: #d8d0d1;
       }
 
       .prod__buttons {
-        width: 500px;
         height: 100px;
-        bottom: 50px;
-        left: 360px;
+        bottom: -40px;
+        left: 80px;
         position: absolute;
+
+        @include break($medium) {
+          left: 360px;
+          width: 500px;
+          bottom: 50px;
+        }
 
         &__buy,
         &__wish {
           border: none;
           position: absolute;
-          width: 240px;
-          height: 70%;
           font-size: 1.25em;
           font-weight: bold;
           transition: ease-in-out 220ms;
@@ -111,6 +129,12 @@ $bg-anim: #d8d0d1;
           letter-spacing: 2px;
           opacity: 0;
           animation: ButtonUp 1s ease-in forwards;
+          padding: 1em 1.4em;
+
+          @include break($medium) {
+            width: 240px;
+            height: 70%;
+          }
         }
 
         &__wish {
@@ -153,12 +177,25 @@ $bg-anim: #d8d0d1;
 
   @keyframes InfoIn {
     0% {
-      width: 0px;
-      left: 360px;
+      width: 0;
+      left: 0;
     }
     100% {
-      width: 500px;
-      left: 360px;
+      width: 300px;
+      left: -40px;
+    }
+  }
+
+  @include break($medium) {
+    @keyframes InfoIn {
+      0% {
+        width: 0;
+        left: 0;
+      }
+      100% {
+        width: 500px;
+        left: 360px;
+      }
     }
   }
 

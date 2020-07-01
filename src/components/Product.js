@@ -5,9 +5,7 @@ function Product({ bike }) {
   const [isChecked, setIsChecked] = useState(false);
 
   const toggle = () => {
-    setIsChecked(!isChecked);
-    console.log(isChecked);
-    
+    setIsChecked(!isChecked);   
   };
 
   return (

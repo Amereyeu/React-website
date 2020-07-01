@@ -10,9 +10,13 @@
   justify-content: center;
 
   &__title {
-    font-size: 12em;
+    font-size: 8em;
     text-align: center;
     color: $color-secondary;
     text-shadow: 0 0 10px $color-primary;
+
+    @include break($large) {
+      font-size: 12em;
+    }
   }
 }

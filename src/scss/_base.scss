@@ -8,7 +8,10 @@
 }
 
 .App {
-  width: 900px;
-  margin: 0 auto;
+  
+  @include break($large) {
+    width: 900px;
+    margin: 0 auto;
 
+  }
 }
