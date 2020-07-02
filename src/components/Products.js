@@ -5,17 +5,16 @@ import Title from "./Title";
 
 function Products() {
   const [data] = useState(bikedata);
-  console.log(data);
 
   return (
     <>
       <Title title="Road bikes" />
-    <div className="products">
-
-      {data.bikes.map((bike) => (
-        <Product key={bike.id} bike={bike} />
-      ))}
-    </div>
+      
+      <div className="products">
+        {data.bikes.map((bike) => (
+          <Product key={bike.id} bike={bike} />
+        ))}
+      </div>
     </>
   );
 }
