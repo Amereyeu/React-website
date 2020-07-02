@@ -1,8 +1,11 @@
 import React from "react";
+import Title from "./Title";
 
 function About() {
   return (
     <div className="about">
+      <Title title="About us" />
+      
       <p className="about__text">
         It was 1971: a year when the world was beginning to change rapidly with
         an exciting new spirit of digital invention, creativity and imagination

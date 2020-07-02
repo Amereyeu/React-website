@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Faq from "./Faq";
 import data from "../data.json";
+import Title from "./Title";
 
 function Faqs() {
   const [faqs, setfaqs] = useState(data);
@@ -20,12 +21,12 @@ function Faqs() {
   };
 
   return (
-    <div className="App">
-      <div className="faqs">
-        {faqs.map((faq, i) => (
-          <Faq faq={faq} index={i} toggleFAQ={toggleFAQ} key={i} />
-        ))}
-      </div>
+    <div className="faqs">
+      <Title title="F A Q" />
+      
+      {faqs.map((faq, i) => (
+        <Faq faq={faq} index={i} toggleFAQ={toggleFAQ} key={i} />
+      ))}
     </div>
   );
 }
